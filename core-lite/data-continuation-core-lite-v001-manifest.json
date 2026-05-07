@@ -1,7 +1,57 @@
 {
-  "package_name": "data-continuation-core-lite-v001.zip",
+  "product_id": "data-continuation-core-lite",
+  "name": "Data-Continuation Core-Lite",
   "version": "v001",
-  "sha256": "0f159b0fa2069a3975a7b3deb19033d6d60f560808f4fc0b6ea5e96c9f92502c",
-  "source_package": "data-continuation-core-lite-standalone.zip",
-  "recommended_products_path": "Data-Continuation/products/core-lite/data-continuation-core-lite-v001.zip"
+  "package_name": "data-continuation-core-lite-v001.zip",
+  "type": "normal-user-onboarding-substrate",
+  "source_repo": "Data-Continuation/core-lite",
+  "product_repo": "Data-Continuation/products",
+  "product_path": "core-lite/data-continuation-core-lite-v001.zip",
+  "source_path": "src/core_lite",
+  "status": "clean-v001",
+  "includes": [
+    "ingestion",
+    "tvc_boundary",
+    "formalism_boundary",
+    "cge",
+    "sandbox",
+    "receipts_record",
+    "receipts_playback",
+    "receipt_verify",
+    "stegdb_local",
+    "storage_local",
+    "llm_gate",
+    "personal_ai_assistant_preview",
+    "continuation_pipeline",
+    "export_gate",
+    "connection_boundary",
+    "product_selftest"
+  ],
+  "verified": {
+    "pytest": true,
+    "selftest_allow": true,
+    "project_init_allow": true,
+    "ingestion_hash": true,
+    "tvc_allow": true,
+    "formalism_allow": true,
+    "cge_allow": true,
+    "llm_sandbox": true,
+    "assistant_sandbox": true,
+    "run_allow": true,
+    "playback_allow": true,
+    "verify_allow": true,
+    "export_allow": true,
+    "connection_allow": true
+  },
+  "sha256": "4bc0612dd3114698b349ac93c77d0a5aef908598949f3254666c2a19efdff80f",
+  "repo_upload_package": {
+    "name": "core-lite-clean-repo-upload-v001.zip",
+    "sha256": "a9b455cb197ede09a8ac1ae929126876c82e90aab905d7c7d9ac7a1843951405",
+    "upload_to_repo_root": true
+  },
+  "product_package": {
+    "name": "data-continuation-core-lite-v001.zip",
+    "sha256": "4bc0612dd3114698b349ac93c77d0a5aef908598949f3254666c2a19efdff80f",
+    "wrapper_folder": "core-lite"
+  }
 }
